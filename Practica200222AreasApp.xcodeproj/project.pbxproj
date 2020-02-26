@@ -13,6 +13,9 @@
 		D906FB132401B3BA002793DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D906FB122401B3BA002793DE /* Assets.xcassets */; };
 		D906FB162401B3BA002793DE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D906FB152401B3BA002793DE /* Preview Assets.xcassets */; };
 		D906FB192401B3BA002793DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D906FB172401B3BA002793DE /* LaunchScreen.storyboard */; };
+		D906FB212401B57F002793DE /* AreaTriangulo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D906FB202401B57F002793DE /* AreaTriangulo.swift */; };
+		D9C914602406F76600E1437B /* AreaCuadrado.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C9145F2406F76600E1437B /* AreaCuadrado.swift */; };
+		D9C914622406F7AD00E1437B /* AreaCirculo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C914612406F7AD00E1437B /* AreaCirculo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		D906FB152401B3BA002793DE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D906FB182401B3BA002793DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D906FB1A2401B3BA002793DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D906FB202401B57F002793DE /* AreaTriangulo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AreaTriangulo.swift; sourceTree = "<group>"; };
+		D9C9145F2406F76600E1437B /* AreaCuadrado.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AreaCuadrado.swift; sourceTree = "<group>"; };
+		D9C914612406F7AD00E1437B /* AreaCirculo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AreaCirculo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,9 @@
 				D906FB172401B3BA002793DE /* LaunchScreen.storyboard */,
 				D906FB1A2401B3BA002793DE /* Info.plist */,
 				D906FB142401B3BA002793DE /* Preview Content */,
+				D906FB202401B57F002793DE /* AreaTriangulo.swift */,
+				D9C9145F2406F76600E1437B /* AreaCuadrado.swift */,
+				D9C914612406F7AD00E1437B /* AreaCirculo.swift */,
 			);
 			path = Practica200222AreasApp;
 			sourceTree = "<group>";
@@ -146,9 +155,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9C914622406F7AD00E1437B /* AreaCirculo.swift in Sources */,
+				D906FB212401B57F002793DE /* AreaTriangulo.swift in Sources */,
 				D906FB0D2401B3B7002793DE /* AppDelegate.swift in Sources */,
 				D906FB0F2401B3B7002793DE /* SceneDelegate.swift in Sources */,
 				D906FB112401B3B7002793DE /* ContentView.swift in Sources */,
+				D9C914602406F76600E1437B /* AreaCuadrado.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
